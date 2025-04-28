@@ -1,4 +1,9 @@
 # 🚗 Parking Management System
+![Made with C++](https://img.shields.io/badge/Made%20with-C%2B%2B-blue.svg)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![License](https://img.shields.io/badge/License-Open%20Source-lightgrey)
+
+---
 
 This **Parking Management System** is a **C++ application** designed to manage the parking of **cars, bikes, and trucks**.  
 It provides functionalities for **parking, removing, displaying, and searching vehicles**, while also showing **available parking slots** for each vehicle type.  
