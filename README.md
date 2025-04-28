@@ -45,3 +45,12 @@ The user interacts through a **menu-driven interface**, selecting the vehicle ty
 Input validations ensure correctness (e.g., **valid plate numbers**).
 
 ---
+![image](https://github.com/user-attachments/assets/09248131-1005-45fc-b98d-0a558e9784a6)
+
+![image](https://github.com/user-attachments/assets/10b8873c-6b14-47a2-88bd-c36350d7ec9c)
+
+![image](https://github.com/user-attachments/assets/a0fb8ba3-d37a-447a-8d32-b9e8c7ac308c)
+
+
+
+
