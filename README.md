@@ -1,2 +1,42 @@
-# ParkingMangementSys
-Parking Management System This project is a Parking Management System that allows users to manage the parking of cars, bikes, and trucks. The system provides functionalities for parking, removing, displaying, and searching for vehicles, while also displaying available parking slots for each vehicle type. This system aims to streamline the process of managing parking spaces by using efficient data structures, such as AVL trees and hash maps, ensuring fast and reliable vehicle management.  Key Features: Car Parking Management:  Park and remove cars by their plate numbers.  Display a list of currently parked cars.  Search for a car by plate number.  View available parking slots for cars.  Bike Parking Management:  Park and remove bikes by their plate numbers.  Display a list of currently parked bikes.  Search for a bike by plate number.  View available parking slots for bikes.  Truck Parking Management:  Park and remove trucks by slot ID.  Display a list of currently parked trucks.  Search for a truck by plate number.  View available parking slots for trucks.  All Vehicles Management:  Display a consolidated list of all parked vehicles (cars, bikes, and trucks).  Data Structures Used: AVL Trees are used to manage bike parking. This self-balancing tree structure ensures efficient insertions, deletions, and searches, making it ideal for scenarios where data needs to remain sorted.  Hash Maps are used to manage truck parking. This allows for constant time complexity for searching and removing trucks based on their plate number.  Linked List is used for managing car parking. It enables easy addition and removal of cars in the parking lot.  System Flow: Users can choose to manage different types of vehicles (car, bike, or truck) from a menu.  They can then select specific actions such as:  Parking a vehicle.  Removing a vehicle.  Displaying a list of parked vehicles.  Searching for a vehicle by plate number.  Viewing available parking slots.  The system ensures that each parking lot type (car, bike, truck) has an efficient mechanism for managing vehicle data, providing quick access and minimal delays.  Input Validation: Input is carefully validated to ensure that no invalid plate numbers are entered.  The system prompts the user to re-enter data if an invalid option is selected.  How to Run: Clone this repository to your local machine:  bash Copy Edit git clone https://github.com/yourusername/parking-management-system.git Navigate to the project directory:  bash Copy Edit cd parking-management-system Compile and run the project:  bash Copy Edit g++ main.cpp -o parking_system ./parking_system Requirements: C++ compiler (e.g., g++)  Basic command-line interface for interacting with the system.  Future Enhancements: Add a graphical user interface (GUI) for a more user-friendly experience.  Implement a database for persistent storage of vehicle information.  Add a feature to reserve parking slots in advance.  Implement user authentication to allow different access levels (e.g., admin and user).  Contributing: Feel free to fork the repository, contribute enhancements, or report bugs by opening an issue. Contributions are always welcome!
+# 🚗 Parking Management System
+
+This **Parking Management System** is a **C++ application** designed to manage the parking of **cars, bikes, and trucks**.  
+It provides functionalities for **parking, removing, displaying, and searching vehicles**, while also showing **available parking slots** for each vehicle type.  
+The system ensures efficiency by utilizing **AVL trees**, **hash maps**, and **linked lists** for quick and reliable vehicle management.
+
+---
+
+## ✨ Key Features
+
+### 🚘 Car Parking Management:
+- Park/remove cars by **plate number**.
+- Display **parked cars** and **available slots**.
+- **Search** for a car by plate number.
+
+### 🏍️ Bike Parking Management:
+- Park/remove bikes by **plate number**.
+- Display **parked bikes** and **available slots**.
+- **Search** for a bike by plate number.
+
+### 🚚 Truck Parking Management:
+- Park/remove trucks by **slot ID**.
+- Display **parked trucks** and **available slots**.
+- **Search** for a truck by plate number.
+
+### 📋 All Vehicles Management:
+- View a **list of all parked vehicles** (cars, bikes, trucks).
+
+---
+
+## 🛠️ Data Structures Used
+- **AVL Tree** ➔ manages bike parking (efficient search, insertion, deletion).
+- **Hash Map** ➔ handles truck parking (fast plate number lookup).
+- **Linked List** ➔ manages car parking (easy additions and removals).
+
+---
+
+## 📈 System Flow
+The user interacts through a **menu-driven interface**, selecting the vehicle type and the desired action (e.g., **park, remove, search**).  
+Input validations ensure correctness (e.g., **valid plate numbers**).
+
+---
